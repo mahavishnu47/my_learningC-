@@ -1,0 +1,75 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+
+//Variable names in comments are written inside ''
+
+  //Printing out Hello World
+  
+  cout << "Hello World" << endl;
+  
+  //Assigning integer variable 'a' = 32 
+  
+  int a = 32;
+  
+  //Printing out the variable 'a'
+  
+  cout << a << endl;
+  
+  //Assigning size variable with sizeof operator which gives us the size of variable in bytes
+  
+  int size = sizeof(a);
+  
+  //Printing out the size of variable 'a'
+  
+  cout<<"The size of a is: "<<size<<endl;
+  
+  //unsigned int is a data type which stores non-negative values 
+  //Assigning variable 'b' = -112
+  
+  unsigned int b = -112;
+  
+  //Printing out variable 'b'
+  
+  cout << b << endl;
+  
+  //Assigning float variable 'c'
+  
+  float c = 1.1/2;
+  //Printing out 'c'
+  
+  cout << c << endl;
+  
+  //Assigning integer variable 'd' = 2
+  
+  int d = 2;
+  //Assigning integer variable 'e' = 5
+  
+  int e = 5;
+  
+  //Assigning bool 'first' variable to check whether 'd' = 'e'
+  
+  bool first = (d == e);
+  
+  //Printing out 'first' variable
+  
+  cout << first << endl;
+  
+  //Assigning bool 'first2' variable to check whether 'd' < 'e'
+  
+  bool first2 = (d < e);
+  
+  //Printing out 'first2' variable
+  
+  cout << first2 << endl;
+  
+  //Assigning bool 'first3' variable to check whether 'd' > 'e'
+  
+  bool first3 = (d > e);
+  
+  //Printing out 'first3' variable
+  
+  cout << first3 << endl;   
+  
+}
