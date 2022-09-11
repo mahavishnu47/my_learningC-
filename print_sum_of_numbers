@@ -1,0 +1,32 @@
+  //Program for printing the sum of positive integers till the number user has given input
+  //Variable names in comments are written inside ''
+  
+  
+  //Asking input n from user to take sum of n numbers
+  //Declaring variable 'num' and storing the input value
+  
+  int num;
+  
+  //Asking input from user
+  
+  cout << "Enter the sum of numbers you want: ";
+  
+  //Storing the user input in 'num' variable
+  
+  cin >> num;
+  
+  // i is starting of positive integer
+  int i = 1;
+  
+  //j is variable to store the sum of positive integers
+  
+  int j = 0;
+  
+  //Running a while loop to take sum of all positive integers
+  
+  while (i <= num){
+    j = j + i;
+    i = i + 1;
+  }
+  //Printing the sum of positive integers till the user input integer
+  cout << "The sum of numbers: " << j <<endl;
