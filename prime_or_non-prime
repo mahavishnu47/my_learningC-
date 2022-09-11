@@ -1,0 +1,48 @@
+  //Program for finding the prime number
+  //Variables inside comments are written inside ''
+
+  //Declaring a variable 'num' to store the input
+
+  int num;
+  
+  //Asking input from user
+  
+  cout << "Enter the number: ";
+  
+  //Storing the input in variable 'num'
+  
+  cin >> num;
+  
+  //Declaring a variable 'i' which is the divisor
+  int i;
+  
+  //Storing 2 in the variable  'i'
+  
+  i = 2;
+  
+  //Running a while loop till the 'num' isn't completely divided
+  
+    while (i != num && num % i != 0){
+    if (i == 2){
+      i = i+1;
+    }
+    else{
+      i = i + 2;
+    }
+  }
+  
+  //if the 'i' variable is less than 'num' variable then it means that the number was divided completely with remainder 0 
+  //Hence printing out that the number isn't prime
+  
+  if (i < num){
+    cout <<num << " is not prime"<<endl;
+  }
+  
+  
+  //if the 'i' variable is less than 'num' variable then it means that the number was not divided completely with remainder 0
+  //Hence printing out that the number is prime
+  else{
+    cout <<num << " is prime"<<endl;
+  }
+  
+  
