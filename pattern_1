@@ -1,0 +1,51 @@
+  //Program to print the following pattern 1 for input 3
+  //***
+  //***
+  //***
+  //Variable names in the comments are written inside ''
+  
+  //Declaring a variable 'n'
+  
+  int n; 
+  
+  //Asking the user for input
+  
+  cout << "Enter a number: ";
+ 
+  //Storing the input value in 'n'
+  
+  cin >> n;
+  
+  //Declaring a variable 'i' which starts the while loop
+  
+  int i = 1;
+  
+  //Starting a while loop with the condition of i<=n.Since, in the pattern we need to print * in n rows
+  
+  while (i <= n){
+  
+  //Declaring a variable 'j' which starts while loop 
+  
+    int j = 1;
+    
+  //Starting a while loop with the condition of j<=n.Since, in the pattern we need to print * in n columns
+  
+    while (j <= n){
+    
+    //Printing out * 
+    
+      cout << '*';
+      
+    //Incrementing 'j' by 1
+    
+      j = j+1;
+    }
+    
+    //Ending the line to enter a new line
+    
+    cout << endl;
+   
+  //Incrementing 'i' by 1
+  
+  i = i + 1;
+  }
