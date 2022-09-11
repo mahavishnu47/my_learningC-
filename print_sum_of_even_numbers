@@ -1,0 +1,32 @@
+ //This program prints the sum of even integers till the number given as input by the user
+ //Variables in comments are written inside ''
+ 
+ //Declaring a variable n
+ 
+  int num;
+  
+  //Asking input n from user to take sum of even numbers till n
+  
+  cout << "Enter the number: ";
+  
+  //Storing the input in variable 'num'
+  
+  cin >> num;
+  
+  // i is starting of even number
+  
+  int i = 2;
+  
+  //j is variable to store the sum of even numbers
+  
+  int j = 0;
+  
+  //Running a while loop to take sum of all even numbers
+  while (i <= num)
+  {
+    j = j + i;
+    i = i + 2;
+  }
+  
+  //Printing the sum of even numbers
+  cout << "The sum of even numbers: " << j <<endl;
